@@ -1,4 +1,4 @@
 Zadanie domowe nr 02.
 
-https://andrzejtyminski.github.io/goit-markup-hw-04/
+https://andrzejtyminski.github.io/goit-markup-hw-02/
 
