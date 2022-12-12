@@ -330,7 +330,6 @@ img {
 .white {
   background-color: #ffffff;
   padding: 0;
- 
 }
 
 .shadow {
@@ -350,6 +349,11 @@ img {
 .tel {
   stroke: #757575;
   vertical-align: middle;
+  line-height: 1.14;
+}
+
+.svg-margin{
+  margin-right: 10px;
 }
 
 .tel:hover {
@@ -357,17 +361,14 @@ img {
 }
 
 .image-overlay {
-
-  background-image: 
-  linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-   url("/images/img-overlay.jpeg"); 
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("/images/img-overlay.jpeg");
   max-width: 1400px;
   margin: 0 auto;
-
-
-
 }
-
 
 .media-flex {
   display: flex;
@@ -378,18 +379,23 @@ img {
 }
 
 .media-flex a {
-
-  fill: grey;
   padding: 12px;
   border-radius: 50%;
-
 }
-
 
 .media-flex a:hover,
-.media-flex a:focus 
+.media-flex a:focus {
+  
+
+  background-color: var(--blue-hover);
+}
+
+
+.our-customers
 {
-fill: var(--light-gray);
-background-color: var(--blue-hover);
+display:flex;
+justify-content: center;
+gap: 30px;
 
 }
+
