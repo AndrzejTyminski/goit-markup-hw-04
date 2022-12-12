@@ -352,7 +352,7 @@ img {
   line-height: 1.14;
 }
 
-.svg-margin{
+.svg-margin {
   margin-right: 10px;
 }
 
@@ -381,21 +381,36 @@ img {
 .media-flex a {
   padding: 12px;
   border-radius: 50%;
+  fill: #afb1b8;
 }
 
-.media-flex a:hover,
-.media-flex a:focus {
-  
-
+.media-flex a:hover {
+  fill: #fff;
   background-color: var(--blue-hover);
 }
 
-
-.our-customers
-{
-display:flex;
-justify-content: center;
-gap: 30px;
-
+.our-customers-wraper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
+.our-customers {
+  fill: #afb1b8;
+}
+
+.our-customers:hover,
+.our-customers:focus {
+  fill: #2196f3;
+}
+
+.blue-border
+{
+  outline: 1px
+   solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.blue-border:hover {
+  outline: 1px solid #2196F3;
+}
