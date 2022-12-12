@@ -384,12 +384,12 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 6px 0 30px 0;
+  margin: 6px 0 30px 0;
 }
 
 .media-flex a {
-  padding: 12px;
-  padding-bottom: 9px;
+  padding: 10px;
+  
   border-radius: 50%;
   fill: #afb1b8;
 }
