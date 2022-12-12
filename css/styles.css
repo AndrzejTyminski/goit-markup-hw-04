@@ -374,7 +374,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("./images/img-overlay.jpeg");
+    url("../images/img-overlay.jpeg");
   max-width: 1400px;
   margin: 0 auto;
 }
