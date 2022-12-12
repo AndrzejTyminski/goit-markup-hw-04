@@ -241,6 +241,8 @@ ul {
   margin: 0 auto;
 }
 
+
+
 .padding0px {
   padding-bottom: 0px;
 }
@@ -413,4 +415,24 @@ img {
 
 .blue-border:hover {
   outline: 1px solid #2196F3;
+}
+
+
+.flex-footer {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.social-footer
+{margin-left: 70px; 
+margin-top: 12px;}
+
+.social-footer h3{
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+font-size: 14px;
+line-height: 16px;
 }
