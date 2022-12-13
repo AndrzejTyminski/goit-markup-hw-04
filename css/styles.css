@@ -136,23 +136,35 @@ li:last-child {
 }
 
 .text-under-photo {
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
   color: inherit;
   margin: 0px;
-  padding-bottom: 10px;
-  padding-top: 26px;
-  text-align: center;
+  padding-bottom: 4px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.text-under-photo-center
+{
+text-align: center;
 }
 
 .figcaption-2th {
   color: var(--gray);
   font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
   margin: 0;
-  padding-top: 10px;
-  margin-bottom: 16px;
-  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 20px;
+  text-align: left;
 }
+
+.figcaption-2th-center
+{text-align: center;
+padding-bottom: 9px;}
 
 /*adresy w stopce */
 .addres-bottom-white-dc {
@@ -249,7 +261,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0;
   margin: 0;
   align-content: stretch;
@@ -322,7 +334,7 @@ img {
 .lorem-flex {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 15px;
   column-gap: 30px;
 }
@@ -375,7 +387,7 @@ img {
       rgba(47, 48, 58, 0.4)
     ),
     url('../images/img-overlay.jpeg');
-  max-width: 1400px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -384,12 +396,14 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin: 6px 0 30px 0;
+  margin: 0px 0 30px 0;
 }
 
 .media-flex a {
   padding: 10px;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   fill: #afb1b8;
 }
